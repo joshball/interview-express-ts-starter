@@ -2,7 +2,6 @@ import express, { Application } from 'express';
 import bodyParser from 'body-parser';
 import cors from 'cors';
 import { routes } from './routes';
-import './dbs/mongo';
 
 // Boot express
 export const app: Application = express();
